@@ -1,14 +1,10 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/koron/go-mynumber"
-)
+import "github.com/koron/go-mynumber"
 
 func main() {
 	// true
-	fmt.Println(mynumber.ValidateStr("123456789018"))
+	println(mynumber.ValidateStr("123456789018"))
 	// false
-	fmt.Println(mynumber.ValidateStr("123456789010"))
+	println(mynumber.ValidateStr("123456789010"))
 }
